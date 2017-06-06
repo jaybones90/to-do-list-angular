@@ -25,9 +25,9 @@ import { Component } from '@angular/core';
       <button (click)="finishedEditing()">Done</button>
     </div>
   </div>
-
-
+  
   `
+
 })
 
 export class AppComponent {
