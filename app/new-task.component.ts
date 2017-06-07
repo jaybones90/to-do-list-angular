@@ -12,9 +12,9 @@ import { Task } from './task.model';
     <div>
       <label>Task Priority:</label>
       <select #newPriority>
-        <option [value]="1"> Low Priority </option>
-        <option [value]="2"> Medium Priority </option>
-        <option [value]="3"> High Priority </option>
+        <option [value]='1'> Low Priority </option>
+        <option [value]='2'> Medium Priority </option>
+        <option [value]='3'> High Priority </option>
       </select>
       <button (click)="submitForm(newDescription.value, newPriority.value); newDescription.value='';">Submit</button>
     </div>
